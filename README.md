@@ -1,4 +1,4 @@
-# 📧 Sheraton Lighting — AI Email Assistant (n8n Workflow)
+# 📧AI Email Assistant (n8n Workflow)
 
 An AI-powered email automation workflow built with n8n that automatically reads incoming customer emails, understands their intent, and replies with intelligent, context-aware responses — all without any manual effort.
 
@@ -112,11 +112,7 @@ Before running this workflow, replace the following credentials with your own:
 
 ---
 
-## 🗂️ Tags
 
-`email_auto` `chat_auto` `customer-support` `sheraton-lighting`
-
----
 
 ## 👨‍💻 Built By
 
