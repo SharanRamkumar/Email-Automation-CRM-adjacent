@@ -11,5 +11,5 @@
 # AI reply
   The AI replies to the email we have send
 
-   refrence pic -
+   refrence pic -https://github.com/SharanRamkumar/Email-Automation-using-n8n/blob/main/screenshots/Screenshot%202026-05-23%20233708.png
   
