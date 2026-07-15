@@ -1,0 +1,54 @@
+# ─── Environment & Secrets ───────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ─── n8n Sensitive Files ─────────────────────────────────────────
+# Raw workflow files with real credentials (push only sanitized versions)
+*_raw.json
+*_original.json
+*_backup.json
+
+# n8n local instance data
+.n8n/
+n8n-data/
+
+# ─── Google Credentials ──────────────────────────────────────────
+credentials.json
+token.json
+google-credentials.json
+service-account.json
+*.oauth2.json
+
+# ─── API Keys & Tokens ───────────────────────────────────────────
+secrets.json
+config.local.json
+openai-key.txt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ─── Logs ────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ─── OS & Editor Junk ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Node (if using any local scripts) ───────────────────────────
+node_modules/
+package-lock.json
+
+# ─── Misc ────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.zip
+*.tar.gz
