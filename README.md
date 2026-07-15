@@ -112,6 +112,23 @@ Before running this workflow, replace the following credentials with your own:
 
 ---
 
+## ⚠️ Known Limitations
+
+- Session memory is currently fixed to a single key — works best for 
+  single-threaded email conversations
+- No spam filtering — all incoming emails trigger the agent
+- Google Sheets will hit performance limits at high volume
+
+---
+
+## ✅ Prerequisites
+
+- A running n8n instance (cloud or self-hosted)
+- A Gmail account with OAuth2 enabled
+- An OpenAI API key
+- Two Google Sheets set up matching the structure below
+
+---
 
 
 ## 👨‍💻 Built By
